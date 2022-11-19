@@ -14,11 +14,11 @@ st.image(image)
 
 st.title('Jueves Vintrash Electronic/Latino 🔆')
 st.write("BUCARALAND")
- st.checkbox("Disable selectbox widget", key="disabled")
-    st.radio(
-        "Set selectbox label visibility 👉",
-        key="visibility",
-        options=["Jueves", "Viernes", "Sabado"],
+st.checkbox("Disable selectbox widget", key="disabled")
+st.radio(
+    "Set selectbox label visibility 👉",
+     key="visibility",
+     options=["Jueves", "Viernes", "Sabado"],
     )
 
 st.write('You selected:', option)
