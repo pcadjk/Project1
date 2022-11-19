@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 from PIL import Image
 
 st.set_page_config(page_title="Vintrash Electronic",
@@ -11,9 +12,11 @@ st.set_page_config(page_title="Vintrash Electronic",
 image = Image.open('default.png')
 st.image(image)
 
-st.title('Jueves Vintrash Electronica/Latino 🔆')
+st.title('Jueves Vintrash Electronic/Latino 🔆')
 st.write("Here's our first attempt at using data to create a table:")
-st.write(pd.DataFrame({
-    'first column': [1, 2, 3, 4],
-    'second column': [10, 20, 30, 40]
+df = pd.DataFrame(
+    np.random.randn(1000, 2) / [50, 50] + [7.11392, -73.1198],
+    columns=['lat', 'lon'])
+
+st.map(df)
 }))
