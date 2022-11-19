@@ -15,8 +15,7 @@ st.image(image)
 st.title('Jueves Vintrash Electronic/Latino 🔆')
 st.write("BUCARALAND")
 
-choice = st.checkbox("Te regalamos un Free Pass que dia te gustaria")
-st.radio(
+choice = st.radio(
         "Set selectbox label visibility 👉",       
         options=["Jueves", "Viernes", "Sabado"],
     )
