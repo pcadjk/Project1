@@ -16,7 +16,7 @@ st.title('Jueves Vintrash Electronic/Latino 🔆')
 st.write("BUCARALAND")
 
 choice = st.radio(
-        "Set selectbox label visibility 👉",       
+        "Te regalamos un Free Pass en Vintrash 👉",       
         options=["Jueves", "Viernes", "Sabado"],
     )
 
