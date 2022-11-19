@@ -13,7 +13,7 @@ image = Image.open('default.png')
 st.image(image)
 
 st.title('Jueves Vintrash Electronic/Latino 🔆')
-st.write("Here's our first attempt at using data to create a table:")
+st.write("BUCARALAND")
 df = pd.DataFrame(
     np.random.randn(100, 2) / [50, 50] + [7.11392, -73.1198],
     columns=['lat', 'lon'])
