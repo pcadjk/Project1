@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
 st.set_page_config(page_title="Vintrash Electronic",
     page_icon="🔆",
@@ -7,7 +8,6 @@ st.set_page_config(page_title="Vintrash Electronic",
     initial_sidebar_state="expanded"
 )
 
-from PIL import Image
 image = Image.open('default.png')
 st.image(image)
 
