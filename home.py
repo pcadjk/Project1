@@ -19,4 +19,4 @@ df = pd.DataFrame(
     columns=['lat', 'lon'])
 
 st.map(df)
-}))
+
