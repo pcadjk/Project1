@@ -16,7 +16,7 @@ st.title('Jueves Vintrash Electronic/Latino 🔆')
 st.write("BUCARALAND")
 
 st.checkbox("Disable selectbox widget", key="disabled")
-    st.radio(
+st.radio(
         "Set selectbox label visibility 👉",
         key="visibility",
         options=["visible", "hidden", "collapsed"],
