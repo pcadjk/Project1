@@ -15,15 +15,11 @@ st.image(image)
 st.title('Jueves Vintrash Electronic/Latino 🔆')
 st.write("BUCARALAND")
 
-st.checkbox("Disable selectbox widget")
+choice = st.checkbox("Te regalamos un Free Pass que dia te gustaria")
 st.radio(
         "Set selectbox label visibility 👉",       
         options=["Jueves", "Viernes", "Sabado"],
     )
 
-df = pd.DataFrame(
-    np.random.randn(100, 2) / [50, 50] + [7.11392, -73.1198],
-    columns=['lat', 'lon'])
 
-st.map(df)
 
