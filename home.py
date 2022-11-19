@@ -14,9 +14,12 @@ st.image(image)
 
 st.title('Jueves Vintrash Electronic/Latino 🔆')
 st.write("BUCARALAND")
-option = st.selectbox(
-    'Te regalamos un Free Pass, Que dia te interesa ?',
-    ('Jueves', 'Viernes', 'Sabado'))
+ st.checkbox("Disable selectbox widget", key="disabled")
+    st.radio(
+        "Set selectbox label visibility 👉",
+        key="visibility",
+        options=["Jueves", "Viernes", "Sabado"],
+    )
 
 st.write('You selected:', option)
 df = pd.DataFrame(
