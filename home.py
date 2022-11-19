@@ -18,9 +18,9 @@ st.write("BUCARALAND")
 st.checkbox("Disable selectbox widget")
 st.radio(
         "Set selectbox label visibility 👉",       
-        options=["visible", "hidden", "collapsed"],
+        options=["Jueves", "Viernes", "Sabado"],
     )
-st.write('You selected:', option)
+
 df = pd.DataFrame(
     np.random.randn(100, 2) / [50, 50] + [7.11392, -73.1198],
     columns=['lat', 'lon'])
