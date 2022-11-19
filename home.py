@@ -14,6 +14,11 @@ st.image(image)
 
 st.title('Jueves Vintrash Electronic/Latino 🔆')
 st.write("BUCARALAND")
+option = st.selectbox(
+    'Te regalamos un Free Pass, Que dia te interesa ?',
+    ('Jueves', 'Viernes', 'Sabado'))
+
+st.write('You selected:', option)
 df = pd.DataFrame(
     np.random.randn(100, 2) / [50, 50] + [7.11392, -73.1198],
     columns=['lat', 'lon'])
