@@ -15,7 +15,7 @@ st.image(image)
 st.title('Jueves Vintrash Electronic/Latino 🔆')
 st.write("Here's our first attempt at using data to create a table:")
 df = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [7.11392, -73.1198],
+    np.random.randn(100, 2) / [50, 50] + [7.11392, -73.1198],
     columns=['lat', 'lon'])
 
 st.map(df)
